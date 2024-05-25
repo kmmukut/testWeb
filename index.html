@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USMLE Step 1 Practice Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .explanation {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 3px solid #00f;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <script>
+        function showExplanation(questionId) {
+            const explanation = document.getElementById(`explanation-${questionId}`);
+            explanation.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1>USMLE Step 1 Practice Questions</h1>
+    <form id="exam-form">
+        <div class="question">
+            <p><strong>Question 1:</strong> A 45-year-old woman presents with fatigue, pruritus, and right upper quadrant pain. Physical examination reveals hepatomegaly and jaundice. Laboratory tests show elevated alkaline phosphatase and antimitochondrial antibodies. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q1" value="A"> A. Primary sclerosing cholangitis</label><br>
+            <label><input type="radio" name="q1" value="B"> B. Primary biliary cholangitis</label><br>
+            <label><input type="radio" name="q1" value="C"> C. Acute hepatitis A</label><br>
+            <label><input type="radio" name="q1" value="D"> D. Chronic pancreatitis</label><br>
+            <button type="button" onclick="showExplanation(1)">Submit Answer</button>
+            <div id="explanation-1" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Primary biliary cholangitis (B)</strong>. This is suggested by the patient's presentation of fatigue, pruritus, and jaundice, along with hepatomegaly, elevated alkaline phosphatase, and the presence of antimitochondrial antibodies, which are specific for this condition.
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 2:</strong> A 60-year-old man with a history of chronic obstructive pulmonary disease (COPD) presents with worsening dyspnea and a productive cough. His temperature is 38.5°C (101.3°F), and he has decreased breath sounds and dullness to percussion over the right lower lung field. A chest X-ray shows consolidation in the right lower lobe. What is the most likely pathogen?</p>
+            <label><input type="radio" name="q2" value="A"> A. Streptococcus pneumoniae</label><br>
+            <label><input type="radio" name="q2" value="B"> B. Haemophilus influenzae</label><br>
+            <label><input type="radio" name="q2" value="C"> C. Legionella pneumophila</label><br>
+            <label><input type="radio" name="q2" value="D"> D. Mycoplasma pneumoniae</label><br>
+            <button type="button" onclick="showExplanation(2)">Submit Answer</button>
+            <div id="explanation-2" class="explanation">
+                <strong>Explanation:</strong> The most likely pathogen is <strong>Streptococcus pneumoniae (A)</strong>. This bacterium is the most common cause of community-acquired pneumonia, especially in patients with underlying chronic diseases such as COPD.
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 3:</strong> A 28-year-old woman presents with a severe headache, fever, and nuchal rigidity. A lumbar puncture is performed, and cerebrospinal fluid analysis shows elevated white blood cell count, increased protein, and decreased glucose. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q3" value="A"> A. Viral meningitis</label><br>
+            <label><input type="radio" name="q3" value="B"> B. Bacterial meningitis</label><br>
+            <label><input type="radio" name="q3" value="C"> C. Fungal meningitis</label><br>
+            <label><input type="radio" name="q3" value="D"> D. Tuberculous meningitis</label><br>
+            <button type="button" onclick="showExplanation(3)">Submit Answer</button>
+            <div id="explanation-3" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Bacterial meningitis (B)</strong>. The presence of a severe headache, fever, nuchal rigidity, elevated white blood cell count, increased protein, and decreased glucose in the cerebrospinal fluid are typical findings in bacterial meningitis.
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 4:</strong> A 22-year-old man presents with a painless testicular mass. On ultrasound, the mass is solid and hypoechoic. Serum tumor markers are elevated for alpha-fetoprotein (AFP) and beta-human chorionic gonadotropin (β-hCG). What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q4" value="A"> A. Seminoma</label><br>
+            <label><input type="radio" name="q4" value="B"> B. Teratoma</label><br>
+            <label><input type="radio" name="q4" value="C"> C. Yolk sac tumor</label><br>
+            <label><input type="radio" name="q4" value="D"> D. Choriocarcinoma</label><br>
+            <button type="button" onclick="showExplanation(4)">Submit Answer</button>
+            <div id="explanation-4" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Yolk sac tumor (C)</strong>. Elevated levels of alpha-fetoprotein (AFP) and beta-human chorionic gonadotropin (β-hCG) in the presence of a solid, hypoechoic testicular mass suggest a non-seminomatous germ cell tumor, specifically a yolk sac tumor.
+            </div>
+        </div>
+
+        <div class="question">
+            <p><strong>Question 5:</strong> A 35-year-old woman presents with palpitations, weight loss, and heat intolerance. Physical examination reveals a diffusely enlarged, non-tender thyroid gland. Laboratory tests show elevated free T4 and suppressed TSH. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q5" value="A"> A. Hashimoto's thyroiditis</label><br>
+            <label><input type="radio" name="q5" value="B"> B. Graves' disease</label><br>
+            <label><input type="radio" name="q5" value="C"> C. Subacute thyroiditis</label><br>
+            <label><input type="radio" name="q5" value="D"> D. Toxic multinodular goiter</label><br>
+            <button type="button" onclick="showExplanation(5)">Submit Answer</button>
+            <div id="explanation-5" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Graves' disease (B)</strong>. This condition is characterized by symptoms of hyperthyroidism such as palpitations, weight loss, and heat intolerance, along with a diffusely enlarged thyroid gland, elevated free T4, and suppressed TSH.
+            </div>
+        </div>
+
+
+        <div class="question">
+            <p><strong>Question 6:</strong> A 33-year-old woman presents with joint pain, a butterfly-shaped rash on her face, and photosensitivity. Laboratory tests reveal positive antinuclear antibodies (ANA) and anti-double-stranded DNA (anti-dsDNA) antibodies. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q6" value="A"> A. Rheumatoid arthritis</label><br>
+            <label><input type="radio" name="q6" value="B"> B. Systemic lupus erythematosus</label><br>
+            <label><input type="radio" name="q6" value="C"> C. Dermatomyositis</label><br>
+            <label><input type="radio" name="q6" value="D"> D. Sjögren's syndrome</label><br>
+            <button type="button" onclick="showExplanation(6)">Submit Answer</button>
+            <div id="explanation-6" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Systemic lupus erythematosus (B)</strong>. The presence of joint pain, a butterfly-shaped rash, photosensitivity, positive ANA, and anti-dsDNA antibodies are characteristic features of systemic lupus erythematosus (SLE).
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 7:</strong> A 40-year-old man presents with epigastric pain that improves with eating. He has a history of chronic NSAID use. Endoscopy reveals a gastric ulcer. What is the most likely underlying cause?</p>
+            <label><input type="radio" name="q7" value="A"> A. Zollinger-Ellison syndrome</label><br>
+            <label><input type="radio" name="q7" value="B"> B. Helicobacter pylori infection</label><br>
+            <label><input type="radio" name="q7" value="C"> C. NSAID use</label><br>
+            <label><input type="radio" name="q7" value="D"> D. Crohn's disease</label><br>
+            <button type="button" onclick="showExplanation(7)">Submit Answer</button>
+            <div id="explanation-7" class="explanation">
+                <strong>Explanation:</strong> The most likely underlying cause is <strong>NSAID use (C)</strong>. Chronic NSAID use can lead to gastric ulcers by inhibiting prostaglandin synthesis, which is protective for the gastric mucosa.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 8:</strong> A 25-year-old woman presents with a painless, firm thyroid nodule. Fine-needle aspiration biopsy reveals cells with ground-glass nuclei and intranuclear grooves. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q8" value="A"> A. Papillary thyroid carcinoma</label><br>
+            <label><input type="radio" name="q8" value="B"> B. Follicular thyroid carcinoma</label><br>
+            <label><input type="radio" name="q8" value="C"> C. Medullary thyroid carcinoma</label><br>
+            <label><input type="radio" name="q8" value="D"> D. Anaplastic thyroid carcinoma</label><br>
+            <button type="button" onclick="showExplanation(8)">Submit Answer</button>
+            <div id="explanation-8" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Papillary thyroid carcinoma (A)</strong>. The presence of ground-glass nuclei and intranuclear grooves, also known as Orphan Annie eye nuclei, is characteristic of papillary thyroid carcinoma.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 9:</strong> A 65-year-old man presents with new-onset back pain, anemia, and renal dysfunction. Serum protein electrophoresis shows an M spike. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q9" value="A"> A. Multiple myeloma</label><br>
+            <label><input type="radio" name="q9" value="B"> B. Waldenström's macroglobulinemia</label><br>
+            <label><input type="radio" name="q9" value="C"> C. Chronic lymphocytic leukemia</label><br>
+            <label><input type="radio" name="q9" value="D"> D. Hodgkin's lymphoma</label><br>
+            <button type="button" onclick="showExplanation(9)">Submit Answer</button>
+            <div id="explanation-9" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Multiple myeloma (A)</strong>. The combination of back pain, anemia, renal dysfunction, and an M spike on serum protein electrophoresis is indicative of multiple myeloma.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 10:</strong> A 70-year-old woman presents with progressive shortness of breath, a dry cough, and bilateral crackles on lung auscultation. Pulmonary function tests reveal a restrictive pattern. Chest CT shows honeycombing and reticular opacities predominantly in the lower lobes. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q10" value="A"> A. Chronic obstructive pulmonary disease</label><br>
+            <label><input type="radio" name="q10" value="B"> B. Pulmonary fibrosis</label><br>
+            <label><input type="radio" name="q10" value="C"> C. Sarcoidosis</label><br>
+            <label><input type="radio" name="q10" value="D"> D. Asthma</label><br>
+            <button type="button" onclick="showExplanation(10)">Submit Answer</button>
+            <div id="explanation-10" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Pulmonary fibrosis (B)</strong>. The presentation of progressive shortness of breath, dry cough, bilateral crackles, restrictive pattern on pulmonary function tests, and characteristic CT findings of honeycombing and reticular opacities suggest pulmonary fibrosis.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 11:</strong> A 55-year-old man presents with severe chest pain radiating to his back, which began suddenly. He is diaphoretic and appears anxious. Blood pressure is 150/90 mmHg in the right arm and 120/80 mmHg in the left arm. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q11" value="A"> A. Myocardial infarction</label><br>
+            <label><input type="radio" name="q11" value="B"> B. Pulmonary embolism</label><br>
+            <label><input type="radio" name="q11" value="C"> C. Aortic dissection</label><br>
+            <label><input type="radio" name="q11" value="D"> D. Pericarditis</label><br>
+            <button type="button" onclick="showExplanation(11)">Submit Answer</button>
+            <div id="explanation-11" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Aortic dissection (C)</strong>. The sudden onset of severe chest pain radiating to the back, along with differential blood pressure in the arms, is highly suggestive of aortic dissection.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 12:</strong> A 25-year-old woman presents with fever, sore throat, and fatigue. Physical examination reveals cervical lymphadenopathy and splenomegaly. A peripheral blood smear shows atypical lymphocytes. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q12" value="A"> A. Acute lymphoblastic leukemia</label><br>
+            <label><input type="radio" name="q12" value="B"> B. Infectious mononucleosis</label><br>
+            <label><input type="radio" name="q12" value="C"> C. Cytomegalovirus infection</label><br>
+            <label><input type="radio" name="q12" value="D"> D. Toxoplasmosis</label><br>
+            <button type="button" onclick="showExplanation(12)">Submit Answer</button>
+            <div id="explanation-12" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Infectious mononucleosis (B)</strong>. The triad of fever, sore throat, and fatigue, along with cervical lymphadenopathy, splenomegaly, and atypical lymphocytes on peripheral blood smear, are characteristic of infectious mononucleosis, commonly caused by Epstein-Barr virus (EBV).
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 13:</strong> A 60-year-old woman presents with progressive difficulty swallowing solids and liquids, weight loss, and regurgitation of undigested food. A barium swallow study shows a "bird beak" appearance of the distal esophagus. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q13" value="A"> A. Achalasia</label><br>
+            <label><input type="radio" name="q13" value="B"> B. Esophageal cancer</label><br>
+            <label><input type="radio" name="q13" value="C"> C. Gastroesophageal reflux disease</label><br>
+            <label><input type="radio" name="q13" value="D"> D. Esophageal stricture</label><br>
+            <button type="button" onclick="showExplanation(13)">Submit Answer</button>
+            <div id="explanation-13" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Achalasia (A)</strong>. The progressive dysphagia to both solids and liquids, weight loss, regurgitation, and "bird beak" appearance on barium swallow study are indicative of achalasia, a motility disorder of the esophagus.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 14:</strong> A 45-year-old man with a history of chronic alcohol abuse presents with confusion, ataxia, and ophthalmoplegia. What is the most likely underlying cause of his symptoms?</p>
+            <label><input type="radio" name="q14" value="A"> A. Hepatic encephalopathy</label><br>
+            <label><input type="radio" name="q14" value="B"> B. Wernicke's encephalopathy</label><br>
+            <label><input type="radio" name="q14" value="C"> C. Korsakoff syndrome</label><br>
+            <label><input type="radio" name="q14" value="D"> D. Alcohol withdrawal</label><br>
+            <button type="button" onclick="showExplanation(14)">Submit Answer</button>
+            <div id="explanation-14" class="explanation">
+                <strong>Explanation:</strong> The most likely underlying cause is <strong>Wernicke's encephalopathy (B)</strong>. The triad of confusion, ataxia, and ophthalmoplegia is characteristic of Wernicke's encephalopathy, which is caused by a deficiency of thiamine (vitamin B1), often seen in chronic alcohol abusers.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 15:</strong> A 30-year-old woman presents with heat intolerance, weight loss, and increased sweating. Physical examination reveals a diffusely enlarged thyroid gland and exophthalmos. Laboratory tests show elevated free T4 and suppressed TSH. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q15" value="A"> A. Toxic multinodular goiter</label><br>
+            <label><input type="radio" name="q15" value="B"> B. Graves' disease</label><br>
+            <label><input type="radio" name="q15" value="C"> C. Subacute thyroiditis</label><br>
+            <label><input type="radio" name="q15" value="D"> D. Hashimoto's thyroiditis</label><br>
+            <button type="button" onclick="showExplanation(15)">Submit Answer</button>
+            <div id="explanation-15" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Graves' disease (B)</strong>. The symptoms of heat intolerance, weight loss, increased sweating, along with a diffusely enlarged thyroid gland and exophthalmos, are indicative of Graves' disease, an autoimmune disorder causing hyperthyroidism.
+            </div>
+        </div>
+        
+
+        <div class="question">
+            <p><strong>Question 16:</strong> A 35-year-old man presents with hematuria, hypertension, and palpable bilateral flank masses. An ultrasound of the kidneys reveals multiple cysts in both kidneys. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q16" value="A"> A. Medullary sponge kidney</label><br>
+            <label><input type="radio" name="q16" value="B"> B. Autosomal dominant polycystic kidney disease</label><br>
+            <label><input type="radio" name="q16" value="C"> C. Autosomal recessive polycystic kidney disease</label><br>
+            <label><input type="radio" name="q16" value="D"> D. Multicystic dysplastic kidney</label><br>
+            <button type="button" onclick="showExplanation(16)">Submit Answer</button>
+            <div id="explanation-16" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Autosomal dominant polycystic kidney disease (B)</strong>. This condition is characterized by the presence of multiple cysts in both kidneys, hematuria, hypertension, and palpable flank masses, typically presenting in adulthood.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 17:</strong> A 28-year-old man presents with abdominal pain, diarrhea, and weight loss. Colonoscopy reveals transmural inflammation and skip lesions throughout the gastrointestinal tract. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q17" value="A"> A. Ulcerative colitis</label><br>
+            <label><input type="radio" name="q17" value="B"> B. Crohn's disease</label><br>
+            <label><input type="radio" name="q17" value="C"> C. Irritable bowel syndrome</label><br>
+            <label><input type="radio" name="q17" value="D"> D. Celiac disease</label><br>
+            <button type="button" onclick="showExplanation(17)">Submit Answer</button>
+            <div id="explanation-17" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Crohn's disease (B)</strong>. The presence of transmural inflammation and skip lesions (discontinuous areas of inflammation) throughout the gastrointestinal tract is characteristic of Crohn's disease.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 18:</strong> A 6-year-old boy is brought to the clinic due to a 2-day history of fever, sore throat, and a sandpaper-like rash. Physical examination reveals strawberry tongue and circumoral pallor. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q18" value="A"> A. Measles</label><br>
+            <label><input type="radio" name="q18" value="B"> B. Scarlet fever</label><br>
+            <label><input type="radio" name="q18" value="C"> C. Kawasaki disease</label><br>
+            <label><input type="radio" name="q18" value="D"> D. Rubella</label><br>
+            <button type="button" onclick="showExplanation(18)">Submit Answer</button>
+            <div id="explanation-18" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Scarlet fever (B)</strong>. The combination of fever, sore throat, sandpaper-like rash, strawberry tongue, and circumoral pallor is characteristic of scarlet fever, which is caused by group A Streptococcus.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 19:</strong> A 45-year-old woman presents with easy bruising, fatigue, and frequent infections. Laboratory tests reveal pancytopenia and a bone marrow biopsy shows hypocellularity. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q19" value="A"> A. Acute myeloid leukemia</label><br>
+            <label><input type="radio" name="q19" value="B"> B. Aplastic anemia</label><br>
+            <label><input type="radio" name="q19" value="C"> C. Myelodysplastic syndrome</label><br>
+            <label><input type="radio" name="q19" value="D"> D. Chronic lymphocytic leukemia</label><br>
+            <button type="button" onclick="showExplanation(19)">Submit Answer</button>
+            <div id="explanation-19" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Aplastic anemia (B)</strong>. The presence of pancytopenia (reduction in all blood cell types) and a hypocellular bone marrow biopsy indicates aplastic anemia, a condition where the bone marrow fails to produce sufficient blood cells.
+            </div>
+        </div>
+        
+        <div class="question">
+            <p><strong>Question 20:</strong> A 30-year-old woman presents with multiple tender nodules on her shins and bilateral hilar lymphadenopathy on chest X-ray. She also reports recent fatigue and weight loss. What is the most likely diagnosis?</p>
+            <label><input type="radio" name="q20" value="A"> A. Tuberculosis</label><br>
+            <label><input type="radio" name="q20" value="B"> B. Sarcoidosis</label><br>
+            <label><input type="radio" name="q20" value="C"> C. Hodgkin lymphoma</label><br>
+            <label><input type="radio" name="q20" value="D"> D. Systemic lupus erythematosus</label><br>
+            <button type="button" onclick="showExplanation(20)">Submit Answer</button>
+            <div id="explanation-20" class="explanation">
+                <strong>Explanation:</strong> The most likely diagnosis is <strong>Sarcoidosis (B)</strong>. The presence of tender nodules on the shins (erythema nodosum), bilateral hilar lymphadenopathy on chest X-ray, along with fatigue and weight loss, is highly suggestive of sarcoidosis.
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
+
